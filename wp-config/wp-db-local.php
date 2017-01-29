@@ -35,8 +35,14 @@ define('NONCE_SALT',       'D4i`j;,*va9!)$6I32)%i:|PWOU#*Y-R!yE$&Xj~Wl1#R{]vavW{
  */
 $table_prefix  = 'pn_';
 
-$wp_home = 'http://' . $http_host . '/pinnar';
-$wp_site_url = 'http://' . $http_host . '/pinnar';
+if ($environment=='local'){
+  $wp_home = 'http://' . $http_host . '/pinnar';
+  $wp_site_url = 'http://' . $http_host . '/pinnar';
+}else{
+  $wp_home = 'http://' . $http_host;
+  $wp_site_url = 'http://' . $http_host;
+
+}
 
 define('WP_HOME', $wp_home );
 define('WP_SITEURL', $wp_site_url );
