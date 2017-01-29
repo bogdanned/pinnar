@@ -83,6 +83,11 @@ div.container.container-clients{
 
 
 .card{
+  & > h1{
+    font-weight: 700;
+    font-size: 70px;
+    text-align: center;
+  }
   & > div.card-block{
     text-align: center;
     & > p{
@@ -92,6 +97,7 @@ div.container.container-clients{
   & > ul.list-group.list-group-flush{
     text-align: center;
     & > li{
+      text-align: center;
       padding: 5px;
     }
   }

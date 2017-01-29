@@ -9264,6 +9264,11 @@ div.container.container-clients {
       margin-bottom: 2rem;
       color: grey; }
 
+.card > h1 {
+  font-weight: 700;
+  font-size: 70px;
+  text-align: center; }
+
 .card > div.card-block {
   text-align: center; }
   .card > div.card-block > p {
@@ -9272,6 +9277,7 @@ div.container.container-clients {
 .card > ul.list-group.list-group-flush {
   text-align: center; }
   .card > ul.list-group.list-group-flush > li {
+    text-align: center;
     padding: 5px; }
 
 /* Header CSS */

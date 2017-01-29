@@ -120,14 +120,17 @@
           <h4 class="card-title">BASIC</h4>
           <p class="card-text">Su tarjeta de presentación digital.</p>
         </div>
+        <h1>499</h1><span>/mes</span>
         <ul class="list-group list-group-flush">
           <li class="list-group-item">Cras justo odio</li>
           <li class="list-group-item">Dapibus ac facilisis in</li>
           <li class="list-group-item">Vestibulum at eros</li>
         </ul>
         <div class="card-block">
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
+          <button class="btn btn-cta">COMPRAR</button>
+          <p>
+            *Gratis el primer mes, despues 29€ al mes.
+          </p>
         </div>
       </div>
     </div>
