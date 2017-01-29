@@ -4,25 +4,19 @@
  *
  * @package understrap
  */
+ $upload_dir = wp_upload_dir();
+
 ?>
+
+<link rel='stylesheet' type="text/css" media="all" src="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"/>
 
 <h1>The home page</h1>
 
-<div class="container">
+<div class="container container-slide">
   <div class="row">
     <div class="col-md-12">
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner" role="listbox">
-          <div class="carousel-item active">
-            <img class="d-block img-fluid" src="..." alt="First slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block img-fluid" src="..." alt="Second slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block img-fluid" src="..." alt="Third slide">
-          </div>
-        </div>
+      <div class="layer">
+
       </div>
     </div>
   </div>
@@ -30,49 +24,71 @@
 <section>
   <h1>Grey section goes here</h1>
 </section>
-<div class="container">
+<div class="container container-services">
   <div class="row">
     <div class="col-md-12">
-      <h2>Servicios</h2>
+      <h2 class="heading-index">Servicios</h2>
     </div>
     <div class="col-md-4">
-      <i class="icon ion-ios-speedometer"></i>
+      <div class="wrapper-service">
+        <i class="icon ion-ios-speedometer"></i>
+        <h4>Web Optimizada</h4>
+      </div>
       <p>
         Adaptada a todos los dispositivos con formulario
         de contacto y geolocalizacón de tu Despacho.
       </p>
     </div>
     <div class="col-md-4">
-      <i class="icon ion-paper-airplane"></i>
+      <div class="wrapper-service">
+        <i class="icon ion-paper-airplane"></i>
+        <h4>Comunicación Ágil</h4>
+      </div>
       <p>
         Adaptada a todos los dispositivos con formulario
         de contacto y geolocalizacón de tu Despacho.
       </p>
     </div>
     <div class="col-md-4">
-      <i class="icon ion-paper-gear"></i>
+      <div class="wrapper-service">
+        <i class="icon ion-ios-cog-outline"></i>
+        <h4>Operativa Mejorada</h4>
+      </div>
       <p>
         Adaptada a todos los dispositivos con formulario
         de contacto y geolocalizacón de tu Despacho.
       </p>
-    </div>
-  </div>
-</div>
-<section>
-  <h1>Photo section goes here</h1>
-</section>
-<div class="container">
-  <div class="row">
-    <div class="col-md-12">
-      <h1>Clients Goes here</h1>
     </div>
   </div>
 </div>
 
-<div class="container">
+<section id="section-band-image">
+  <div class="container-fluid">
+    <h3>Con Pinnar podrás gestionar más clientes y fidelizar a los que ya tienes</h3>
+    <button class="btn btn-primary">Servicios</button>
+  </div>
+</section>
+
+<div class="container container-clients">
   <div class="row">
     <div class="col-md-12">
-      <h1>Opiniones</h1>
+      <h2 class="heading-index">Clientes</h2>
+      <h4>Más de 30 Despachos Profesionales ya confian en nosotros.</h4>
+    </div>
+    <div class="col-md-12">
+      <img src=<?php echo $upload_dir['baseurl'] ."/2017/01/logo.jpg" ?>>
+      <img src=<?php echo $upload_dir['baseurl'] ."/2017/01/logo.jpg" ?>>
+      <img src=<?php echo $upload_dir['baseurl'] ."/2017/01/logo.jpg" ?>>
+      <img src=<?php echo $upload_dir['baseurl'] ."/2017/01/logo.jpg" ?>>
+      <img src=<?php echo $upload_dir['baseurl'] ."/2017/01/logo.jpg" ?>>
+    </div>
+  </div>
+</div>
+
+<div class="container container-customers">
+  <div class="row">
+    <div class="col-md-12">
+      <h2 class="heading-index">Clientes</h2>
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner" role="listbox">
           <div class="carousel-item active">

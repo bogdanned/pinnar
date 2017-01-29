@@ -1,0 +1,67 @@
+.heading-index{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.container-slide{
+  background-image: url('../../../uploads/2017/01/madrid.jpg');
+  background-blend-mode: darken;
+  opacity: 1.00;
+  height: 80%;
+  height: 400px;
+  & > div{
+    & > div{
+      & > {
+
+      }
+    }
+  }
+}
+
+
+div.container.container-services{
+  margin-bottom: 5%;
+  margin-top: 5%;
+  & > div.row{
+    & > div{
+      & > div.wrapper-service{
+        text-align: center;
+        & > i{
+          font-size: 60px;
+        }
+      }
+    }
+  }
+}
+
+#section-band-image{
+  margin-bottom: 5%;
+  margin-top: 5%;
+  & > div{
+    & > h3{
+
+    }
+    & > button{
+      float: left;
+    }
+  }
+}
+
+div.container.container-clients{
+  margin-bottom: 5%;
+  margin-top: 5%;
+  & > div.row{
+    & > div{
+      text-align: center;
+      & > img{
+        width: 18%;
+        padding: 5px;
+      }
+      & > h4{
+        margin-bottom: 2rem;
+        color: grey;
+      }
+    }
+  }
+}

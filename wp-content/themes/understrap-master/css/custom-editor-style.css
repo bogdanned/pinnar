@@ -9202,8 +9202,62 @@ aside.widget {
 .gallery-caption {
   display: block; }
 
-.test-css {
-  text-align: center; }
+.heading-index {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600; }
+
+.container-slide {
+  background-image: url("../../../uploads/2017/01/madrid.jpg");
+  background-blend-mode: darken;
+  opacity: 1.00;
+  height: 80%;
+  height: 400px; }
+
+div.container.container-services {
+  margin-bottom: 5%;
+  margin-top: 5%; }
+  div.container.container-services > div.row > div > div.wrapper-service {
+    text-align: center; }
+    div.container.container-services > div.row > div > div.wrapper-service > i {
+      font-size: 60px; }
+
+#section-band-image {
+  margin-bottom: 5%;
+  margin-top: 5%; }
+  #section-band-image > div > button {
+    float: left; }
+
+div.container.container-clients {
+  margin-bottom: 5%;
+  margin-top: 5%; }
+  div.container.container-clients > div.row > div {
+    text-align: center; }
+    div.container.container-clients > div.row > div > img {
+      width: 18%;
+      padding: 5px; }
+    div.container.container-clients > div.row > div > h4 {
+      margin-bottom: 2rem;
+      color: grey; }
+
+/* Header CSS */
+.navbar-toggleable-md {
+  flex-direction: row-reverse;
+  text-transform: uppercase; }
+
+a.nav-link {
+  color: white;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem; }
+
+.navbar-toggleable-md .navbar-collapse {
+  flex-direction: row-reverse; }
+
+#wrapper-navbar {
+  background-color: #2c3e50; }
+
+.navbar-brand {
+  color: white; }
 
 /*
 * Use existing Bootstrap 4 classes and
