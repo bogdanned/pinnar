@@ -9,11 +9,26 @@
   background-blend-mode: darken;
   opacity: 1.00;
   height: 80%;
-  height: 400px;
+  height: 700px;
+  margin: 0px;
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
   & > div{
     & > div{
-      & > {
-
+      & > div.layer{
+        text-align: center;
+        color: #fff;
+        position: absolute;
+        top: 295px;
+        width: 100%;
+        & > h1{
+          font-weight: 600px;
+          text-transform: uppercase;
+        }
+        & > h3{
+          text-transform: uppercase;
+        }
       }
     }
   }
@@ -62,6 +77,22 @@ div.container.container-clients{
         margin-bottom: 2rem;
         color: grey;
       }
+    }
+  }
+}
+
+
+.card{
+  & > div.card-block{
+    text-align: center;
+    & > p{
+      font-style: italic;
+    }
+  }
+  & > ul.list-group.list-group-flush{
+    text-align: center;
+    & > li{
+      padding: 5px;
     }
   }
 }

@@ -6,6 +6,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+@import url("https://fonts.googleapis.com/css?family=Lato");
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -9202,6 +9203,14 @@ aside.widget {
 .gallery-caption {
   display: block; }
 
+h1, h2, h3, h4, h5, h6, p, span {
+  font-family: 'Lato', sans-serif; }
+
+.btn-cta {
+  background-color: red;
+  color: white;
+  text-transform: uppercase; }
+
 .heading-index {
   text-align: center;
   text-transform: uppercase;
@@ -9212,7 +9221,22 @@ aside.widget {
   background-blend-mode: darken;
   opacity: 1.00;
   height: 80%;
-  height: 400px; }
+  height: 700px;
+  margin: 0px;
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat; }
+  .container-slide > div > div > div.layer {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 295px;
+    width: 100%; }
+    .container-slide > div > div > div.layer > h1 {
+      font-weight: 600px;
+      text-transform: uppercase; }
+    .container-slide > div > div > div.layer > h3 {
+      text-transform: uppercase; }
 
 div.container.container-services {
   margin-bottom: 5%;
@@ -9240,6 +9264,16 @@ div.container.container-clients {
       margin-bottom: 2rem;
       color: grey; }
 
+.card > div.card-block {
+  text-align: center; }
+  .card > div.card-block > p {
+    font-style: italic; }
+
+.card > ul.list-group.list-group-flush {
+  text-align: center; }
+  .card > ul.list-group.list-group-flush > li {
+    padding: 5px; }
+
 /* Header CSS */
 .navbar-toggleable-md {
   flex-direction: row-reverse;
@@ -9248,7 +9282,8 @@ div.container.container-clients {
 a.nav-link {
   color: white;
   padding-right: 1.5rem;
-  padding-left: 1.5rem; }
+  padding-left: 1.5rem;
+  letter-spacing: 1.5px; }
 
 .navbar-toggleable-md .navbar-collapse {
   flex-direction: row-reverse; }

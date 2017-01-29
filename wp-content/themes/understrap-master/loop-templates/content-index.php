@@ -10,13 +10,14 @@
 
 <link rel='stylesheet' type="text/css" media="all" src="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"/>
 
-<h1>The home page</h1>
 
 <div class="container container-slide">
   <div class="row">
     <div class="col-md-12">
       <div class="layer">
-
+        <h1>¡adios al papel!</h1>
+        <h3>Incrementa la eficiencia de tu despacho y ahorra tiempo</h3>
+        <button class="btn btn-cta">empezar</button>
       </div>
     </div>
   </div>
@@ -111,13 +112,13 @@
 </div>
 
 <div class="container">
+  <h2 class="heading-index">PACKS</h2>
   <div class="row">
     <div class="col-md-4">
       <div class="card" style="width: 20rem;">
-        <img class="card-img-top" src="..." alt="Card image cap">
         <div class="card-block">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h4 class="card-title">BASIC</h4>
+          <p class="card-text">Su tarjeta de presentación digital.</p>
         </div>
         <ul class="list-group list-group-flush">
           <li class="list-group-item">Cras justo odio</li>
@@ -132,13 +133,7 @@
     </div>
   </div>
 </div>
-<div class="container">
-  <div class="row">
-    <div class="col-md-12">
 
-    </div>
-  </div>
-</div>
 
 
 
