@@ -8,7 +8,8 @@
 
 ?>
 
-<link rel='stylesheet' type="text/css" media="all" src="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"/>
+
+<div class="content-wrapper">
 
 
 <div class="container container-slide">
@@ -137,6 +138,7 @@
   </div>
 </div>
 
+</div>
 
 
 

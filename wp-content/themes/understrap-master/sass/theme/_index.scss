@@ -4,6 +4,12 @@
     font-weight: 600;
 }
 
+div.content-wrapper{
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
 .container-slide{
   background-image: url('../../../uploads/2017/01/madrid.jpg');
   background-blend-mode: darken;
@@ -43,7 +49,7 @@ div.container.container-services{
       & > div.wrapper-service{
         text-align: center;
         & > i{
-          font-size: 60px;
+          font-size: 48px;
         }
       }
     }

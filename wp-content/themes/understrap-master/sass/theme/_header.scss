@@ -13,13 +13,18 @@ a.nav-link{
 
 .navbar-toggleable-md .navbar-collapse{
   flex-direction: row-reverse;
+  z-index: 100;
 }
 
 
 #wrapper-navbar{
-  background-color: #2c3e50;
+  background-color: transparent;
 }
 
 .navbar-brand{
-  color: white;
+  z-index: 100;
+  color: #fff;
+  text-transform: none;
+  font-size: 37px;
+  letter-spacing: 4px;
 }
