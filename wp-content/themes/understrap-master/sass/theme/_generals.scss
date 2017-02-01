@@ -2,11 +2,23 @@
 
 
 h1, h2, h3, h4, h5, h6, p, span, ul, li, a{
-  font-family: 'Raleway-Light', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .btn-cta{
-  background-color: red;
+  background-color: $pinnar-orange;
+  border-color: $pinnar-orange;
+  border-radius: 0px;
   color: white;
   text-transform: uppercase;
+  font-family: 'Raleway';
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.btn-cta-card{
+  border-radius: 0px;
+  color: white;
+  font-weight: 600;
+  border-bottom: $pinnar-orange-dark solid 2px;
 }

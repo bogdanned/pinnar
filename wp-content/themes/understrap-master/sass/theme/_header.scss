@@ -9,6 +9,10 @@ a.nav-link{
   padding-right: 1.5rem;
   padding-left: 1.5rem;
   letter-spacing: 1.5px;
+  line-height: 100%;
+  font-family: "Raleway";
+  font-weight: 300;
+  font-size: 14px;
 }
 
 .navbar-toggleable-md .navbar-collapse{
@@ -16,15 +20,27 @@ a.nav-link{
   z-index: 100;
 }
 
+#navbarNavDropdown{
+  padding-top: 15px;
+}
 
 #wrapper-navbar{
   background-color: transparent;
+  position: absolute;
+  top: 0px;
+  width: 100%;
 }
 
 .navbar-brand{
   z-index: 100;
-  color: #fff;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 100%;
+  color: white;
   text-transform: none;
-  font-size: 37px;
-  letter-spacing: 4px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 5px;
 }

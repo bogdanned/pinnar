@@ -12167,32 +12167,143 @@ aside.widget {
   content: ""; }
 
 @font-face {
-  font-family: 'Raleway-Black';
-  src: url("../fonts/Raleway-Black.ttf"); }
+  font-family: "Raleway";
+  font-weight: 100;
+  src: url("../fonts/Raleway-Thin.ttf");
+  font-style: normal; }
 
 @font-face {
-  font-family: 'Raleway-Light';
-  src: url("../fonts/Raleway-Light.ttf"); }
+  font-family: "Raleway";
+  font-weight: 100;
+  src: url("../fonts/Raleway-ThinItalic.ttf");
+  font-style: italic; }
+
+@font-face {
+  font-family: "Raleway";
+  font-weight: 200;
+  src: url("../fonts/Raleway-ExtraLight.ttf");
+  font-style: normal; }
+
+@font-face {
+  font-family: "Raleway";
+  font-weight: 200;
+  src: url("../fonts/Raleway-ExtraLightItalic.ttf");
+  font-style: italic; }
+
+@font-face {
+  font-family: "Raleway";
+  font-weight: 300;
+  src: url("../fonts/Raleway-Light.ttf");
+  font-style: normal; }
+
+@font-face {
+  font-family: "Raleway";
+  font-weight: 300;
+  src: url("../fonts/Raleway-LightItalic.ttf");
+  font-style: italic; }
+
+@font-face {
+  font-family: "Raleway";
+  font-weight: 400;
+  src: url("../fonts/Raleway-Regular.ttf");
+  font-style: normal; }
+
+@font-face {
+  font-family: "Raleway";
+  font-weight: 400;
+  src: url("../fonts/Raleway-RegularItalic.ttf");
+  font-style: italic; }
+
+@font-face {
+  font-family: "Raleway";
+  font-weight: 500;
+  src: url("../fonts/Raleway-Medium.ttf");
+  font-style: normal; }
+
+@font-face {
+  font-family: "Raleway";
+  font-weight: 500;
+  src: url("../fonts/Raleway-MediumItalic.ttf");
+  font-style: italic; }
+
+@font-face {
+  font-family: "Raleway";
+  font-weight: 600;
+  src: url("../fonts/Raleway-SemiBold.ttf");
+  font-style: normal; }
+
+@font-face {
+  font-family: "Raleway";
+  font-weight: 600;
+  src: url("../fonts/Raleway-SemiBold.ttf");
+  font-style: italic; }
+
+@font-face {
+  font-family: "Raleway";
+  font-weight: 600;
+  src: url("../fonts/Raleway-Bold.ttf");
+  font-style: normal; }
+
+@font-face {
+  font-family: "Raleway";
+  font-weight: 600;
+  src: url("../fonts/Raleway-Bold.ttf");
+  font-style: italic; }
+
+@font-face {
+  font-family: "Raleway";
+  font-weight: 800;
+  src: url("../fonts/Raleway-ExtraBold.ttf");
+  font-style: normal; }
+
+@font-face {
+  font-family: "Raleway";
+  font-weight: 800;
+  src: url("../fonts/Raleway-ExtraBold.ttf");
+  font-style: italic; }
+
+@font-face {
+  font-family: "Raleway";
+  font-weight: 900;
+  src: url("../fonts/Raleway-Black.ttf");
+  font-style: normal; }
+
+@font-face {
+  font-family: "Raleway";
+  font-weight: 900;
+  src: url("../fonts/Raleway-BlackItalic.ttf");
+  font-style: italic; }
 
 h1, h2, h3, h4, h5, h6, p, span, ul, li, a {
-  font-family: 'Raleway-Light', sans-serif; }
+  font-family: 'Raleway', sans-serif; }
 
 .btn-cta {
-  background-color: red;
+  background-color: #EB6126;
+  border-color: #EB6126;
+  border-radius: 0px;
   color: white;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-family: 'Raleway';
+  font-weight: bold;
+  font-size: 14px; }
+
+.btn-cta-card {
+  border-radius: 0px;
+  color: white;
+  font-weight: 600;
+  border-bottom: #C0392B solid 2px; }
 
 .heading-index {
   text-align: center;
   text-transform: uppercase;
-  font-weight: 600; }
-
-div.content-wrapper {
-  position: absolute;
-  top: 0px;
-  width: 100%; }
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 100%;
+  color: #3A3C3D; }
 
 .container-slide {
+  background-blend-mode: darken;
   background-image: url("../../../uploads/2017/01/madrid.jpg");
   background-blend-mode: darken;
   opacity: 1.00;
@@ -12202,6 +12313,15 @@ div.content-wrapper {
   background-size: cover;
   width: 100%;
   background-repeat: no-repeat; }
+  .container-slide > div.layer-slide {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(242, 242, 242, 0.25) 0%, rgba(0, 86, 161, 0.5) 100%);
+    opacity: 1.00;
+    margin-right: -15px;
+    margin-left: -15px;
+    position: absolute;
+    top: 0px; }
   .container-slide > div > div > div.layer {
     text-align: center;
     color: #fff;
@@ -12209,28 +12329,42 @@ div.content-wrapper {
     top: 295px;
     width: 100%; }
     .container-slide > div > div > div.layer > h1 {
-      font-weight: 600px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 54px;
+      line-height: 100%;
+      letter-spacing: 0.15px;
+      color: white;
       text-transform: uppercase; }
     .container-slide > div > div > div.layer > h3 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 100%;
+      color: white;
       text-transform: uppercase; }
 
 div.container.container-services {
   margin-bottom: 5%;
   margin-top: 5%; }
-  div.container.container-services > div.row > div > div.wrapper-service {
-    text-align: center; }
-    div.container.container-services > div.row > div > div.wrapper-service > i {
-      font-size: 48px; }
+  div.container.container-services > div.row > div {
+    padding: 5%; }
+    div.container.container-services > div.row > div > div.wrapper-service {
+      text-align: center; }
+      div.container.container-services > div.row > div > div.wrapper-service > i {
+        font-size: 48px; }
 
 #section-band-image {
-  margin-bottom: 5%;
-  margin-top: 5%; }
+  background: url("../../../uploads/2017/02/section_2.png");
+  padding: 5%; }
+  #section-band-image > div > h3 {
+    color: white; }
   #section-band-image > div > button {
     float: left; }
 
 div.container.container-clients {
-  margin-bottom: 5%;
-  margin-top: 5%; }
+  padding-bottom: 15%;
+  padding-top: 15%; }
   div.container.container-clients > div.row > div {
     text-align: center; }
     div.container.container-clients > div.row > div > img {
@@ -12240,21 +12374,105 @@ div.container.container-clients {
       margin-bottom: 2rem;
       color: grey; }
 
-.card > h1 {
-  font-weight: 700;
-  font-size: 70px;
+div.container.container-opinions {
+  background: url("../../../uploads/2017/02/law_2.jpg");
+  padding-bottom: 15%;
+  padding-top: 15%;
+  margin: 0px;
+  width: 100%;
   text-align: center; }
 
-.card > div.card-block {
-  text-align: center; }
-  .card > div.card-block > p {
-    font-style: italic; }
-
-.card > ul.list-group.list-group-flush {
-  text-align: center; }
-  .card > ul.list-group.list-group-flush > li {
+div.card.card-basic {
+  background-color: #F0F0F0;
+  width: 100%;
+  border-radius: 0px;
+  border: none; }
+  div.card.card-basic > div.card-block {
+    background: #171928;
+    color: white;
+    text-align: center; }
+    div.card.card-basic > div.card-block > h4 {
+      font-size: 32px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      margin-bottom: 5px; }
+    div.card.card-basic > div.card-block > p {
+      font-size: 16px;
+      font-weight: 100; }
+  div.card.card-basic > div.card-body {
+    padding: 20px;
     text-align: center;
-    padding: 5px; }
+    background-color: #F0F0F0; }
+    div.card.card-basic > div.card-body > h1 {
+      font-weight: 400;
+      font-size: 55px;
+      text-align: center; }
+      div.card.card-basic > div.card-body > h1 > span {
+        font-size: 36px;
+        vertical-align: middle;
+        top: 32%; }
+    div.card.card-basic > div.card-body > ul.list-group.list-group-flush {
+      text-align: center;
+      background-color: #F0F0F0; }
+      div.card.card-basic > div.card-body > ul.list-group.list-group-flush > li {
+        width: 100%;
+        background-color: #F0F0F0;
+        margin: auto;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        border: none;
+        border-bottom: #BDBDBD solid 0.5px; }
+        div.card.card-basic > div.card-body > ul.list-group.list-group-flush > li > p {
+          margin: auto;
+          color: #828282;
+          font-size: 14px;
+          font-weight: 400; }
+    div.card.card-basic > div.card-body > button {
+      margin-top: 25%; }
+    div.card.card-basic > div.card-body > p {
+      font-size: 8px;
+      font-style: italic;
+      font-weight: 300; }
+
+div.card.card-basic.card-middle {
+  flex: none;
+  height: 120%;
+  top: -10%; }
+  div.card.card-basic.card-middle > div.card-block {
+    background: #0056A1;
+    height: 180px;
+    flex: none; }
+  div.card.card-basic.card-middle > div.card-body {
+    padding: 5%;
+    text-align: center;
+    background-color: #F0F0F0; }
+    div.card.card-basic.card-middle > div.card-body > img {
+      position: relative;
+      top: -71px; }
+    div.card.card-basic.card-middle > div.card-body > ul.list-group.list-group-flush {
+      text-align: center;
+      background-color: #F0F0F0; }
+      div.card.card-basic.card-middle > div.card-body > ul.list-group.list-group-flush > li {
+        width: 100%;
+        background-color: #F0F0F0;
+        margin: auto;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        border: none;
+        border-bottom: #BDBDBD solid 0.5px; }
+        div.card.card-basic.card-middle > div.card-body > ul.list-group.list-group-flush > li > p {
+          margin: auto;
+          color: #828282;
+          font-size: 14px;
+          font-weight: 400; }
+    div.card.card-basic.card-middle > div.card-body > button {
+      margin-top: 25%; }
+    div.card.card-basic.card-middle > div.card-body > p {
+      font-size: 8px;
+      font-style: italic;
+      font-weight: 300; }
 
 /* Header CSS */
 .navbar-toggleable-md {
@@ -12265,21 +12483,37 @@ a.nav-link {
   color: white;
   padding-right: 1.5rem;
   padding-left: 1.5rem;
-  letter-spacing: 1.5px; }
+  letter-spacing: 1.5px;
+  line-height: 100%;
+  font-family: "Raleway";
+  font-weight: 300;
+  font-size: 14px; }
 
 .navbar-toggleable-md .navbar-collapse {
   flex-direction: row-reverse;
   z-index: 100; }
 
+#navbarNavDropdown {
+  padding-top: 15px; }
+
 #wrapper-navbar {
-  background-color: transparent; }
+  background-color: transparent;
+  position: absolute;
+  top: 0px;
+  width: 100%; }
 
 .navbar-brand {
   z-index: 100;
-  color: #fff;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 100%;
+  color: white;
   text-transform: none;
-  font-size: 37px;
-  letter-spacing: 4px; }
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 5px; }
 
 /*
 * Use existing Bootstrap 4 classes and
