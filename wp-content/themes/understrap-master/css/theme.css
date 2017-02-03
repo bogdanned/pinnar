@@ -12344,7 +12344,7 @@ h1, h2, h3, h4, h5, h6, p, span, ul, li, a {
   text-align: center;
   text-transform: uppercase;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 46px;
   line-height: 100%;
   color: #3a3c3d;
@@ -12559,6 +12559,14 @@ div.card.card-basic.card-middle {
     height: 180px;
     flex: none; }
   div.card.card-basic.card-middle > div.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 0px;
+    padding-right: 0px;
     padding: 5%;
     text-align: center;
     background-color: #F0F0F0; }

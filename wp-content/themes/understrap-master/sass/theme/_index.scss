@@ -2,7 +2,7 @@
     text-align: center;
     text-transform: uppercase;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 46px;
     line-height: 100%;
     color: #3a3c3d;
@@ -288,6 +288,14 @@ div.card.card-basic.card-middle{
     flex: none;
   }
   & > div.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 0px;
+    padding-right: 0px;
     & > img{
       position: relative;
       top: -71px;
