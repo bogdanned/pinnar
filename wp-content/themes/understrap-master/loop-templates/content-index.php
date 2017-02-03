@@ -8,9 +8,7 @@
 
 ?>
 
-
 <div class="content-wrapper">
-
 
 <div class="container container-slide">
   <div class="layer-slide">
@@ -46,13 +44,12 @@
         <h4>Comunicación Ágil</h4>
       </div>
       <p>
-        Adaptada a todos los dispositivos con formulario
-        de contacto y geolocalizacón de tu Despacho.
+        Agiliza tus operaciones y las interaciones con tus clientes.
       </p>
     </div>
     <div class="col-md-4">
       <div class="wrapper-service">
-        <i class="icon ion-ios-cog-outline"></i>
+        <i class="icon ion-ios-cog"></i>
         <h4>Operativa Mejorada</h4>
       </div>
       <p>
@@ -66,28 +63,12 @@
 <section id="section-band-image">
   <div class="layer-band-image">
   </div>
-  <div class="container-fluid">
+  <div class="container">
     <h3>Con Pinnar podrás gestionar más clientes y fidelizar a los que<br /> ya tienes.</h3>
     <button class="btn btn-cta pull-right">Servicios</button>
   </div>
 </section>
 
-
-<div class="container container-clients">
-  <div class="row">
-    <div class="col-md-12">
-      <h2 class="heading-index">Clientes</h2>
-      <h4>Más de 30 Despachos Profesionales ya confian en nosotros.</h4>
-    </div>
-    <div class="col-md-12">
-      <img src=<?php echo $upload_dir['baseurl'] ."/2017/02/iasesoria_logo.png" ?>>
-      <img src=<?php echo $upload_dir['baseurl'] ."/2017/02/lopez_rivas.png" ?>>
-      <img src=<?php echo $upload_dir['baseurl'] ."/2017/02/gestores_muñoz.png" ?>>
-      <img src=<?php echo $upload_dir['baseurl'] ."/2017/02/díaz_gestores_2.png" ?>>
-
-    </div>
-  </div>
-</div>
 
 
 <div class="container container-screens">
@@ -96,7 +77,7 @@
       <img src="wp-content/uploads/2017/02/demo_iasesoría.png"/>
     </div>
     <div class="col-md-6">
-      <h2>Web adaptada a todos los dispositivos</h2>
+      <h2 class="align-middle">Web adaptada a todos los dispositivos</h2>
       <p>
         Tu tarjeta personal de presentacion digital.
         <br />
@@ -108,19 +89,32 @@
   </div>
   <div class="row">
     <div class="col-md-6">
-      <div class="col-md-6">
-        <h2>Snappy Manager</h2>
-        <p>
-          Gestiona todos tus documentos de manera intuitiva,
-          <br />
-          evita el paepl y agiliza la comunicación con tus
-          <br />
-          clients.
-        </p>
-      </div>
+      <h2>Snappy Manager</h2>
+      <p>
+        Gestiona todos tus documentos de manera intuitiva,
+        <br />
+        evita el papel y agiliza la comunicación con tus
+        <br />
+        clients.
+      </p>
     </div>
     <div class="col-md-6">
       <img src="wp-content/uploads/2017/02/snappy_3.png"/>
+    </div>
+  </div>
+</div>
+
+<div class="container container-clients">
+  <div class="row">
+    <div class="col-md-12">
+      <h2 class="heading-index">Clientes</h2>
+      <h4>Más de 30 Despachos Profesionales ya confian en nosotros.</h4>
+    </div>
+    <div class="col-md-12 col-clients-images">
+      <img src=<?php echo $upload_dir['baseurl'] ."/2017/02/iasesoria_logo.png" ?>>
+      <img src=<?php echo $upload_dir['baseurl'] ."/2017/02/lopez_rivas.png" ?>>
+      <img src=<?php echo $upload_dir['baseurl'] ."/2017/02/gestores_muñoz.png" ?>>
+      <img src=<?php echo $upload_dir['baseurl'] ."/2017/02/díaz_gestores_2.png" ?>>
     </div>
   </div>
 </div>
@@ -130,33 +124,67 @@
   </div>
   <div class="row">
     <div class="col-md-12">
-      <h2 class="heading-index">OPINIONES</h2>
-      <H4>Palabras que reflejan nuestro compromiso</H4>
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <h2 class="heading-index white">OPINIONES</h2>
+      <h4 class="white">Palabras que reflejan nuestro compromiso</h4>
+      <div id="carouselOpinions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
         <div class="carousel-inner" role="listbox">
           <div class="carousel-item active">
             <div class="carousel-caption d-none d-md-block">
               <h3>iAsesoria</h3>
-              <p>"Con la ayuda de pinnar hemos"</p>
+              <p>“Con la ayuda de Pinnar hemos logrado construir una marca digital en
+                Internet. Además con la utilización de los packs hemos sido capaces de agilizar
+                nuestras operaciones e incrementar la eficiencia del despacho.”
+              </p>
+              <p>
+                Primero.
+              </p>
             </div>
           </div>
           <div class="carousel-item">
             <div class="carousel-caption d-none d-md-block">
               <h3>iAsesoria</h3>
-              <p>"Con la ayuda de pinnar hemos"</p>
-            </div>          </div>
+              <p>“Con la ayuda de Pinnar hemos logrado construir una marca digital en
+                Internet. Además con la utilización de los packs hemos sido capaces de agilizar
+                nuestras operaciones e incrementar la eficiencia del despacho.”
+              </p>
+              <p>
+                Primero.
+              </p>
+            </div>
+          </div>
           <div class="carousel-item">
             <div class="carousel-caption d-none d-md-block">
               <h3>iAsesoria</h3>
-              <p>"Con la ayuda de pinnar hemos"</p>
-            </div>          </div>
+              <p>“Con la ayuda de Pinnar hemos logrado construir una marca digital en
+                Internet. Además con la utilización de los packs hemos sido capaces de agilizar
+                nuestras operaciones e incrementar la eficiencia del despacho.”
+              </p>
+              <p>
+                Primero.
+              </p>
+            </div>
+          </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
     </div>
   </div>
 </div>
 
-<div class="container">
+
+<div class="container container-packs" id="packs">
   <h2 class="heading-index">PACKS</h2>
   <div class="row">
     <div class="col-md-4">
@@ -220,7 +248,7 @@
     <div class="col-md-4">
       <div class="card card-basic">
         <div class="card-block">
-          <h4 class="card-title">BASIC+</h4>
+          <h4 class="card-title">EXPERT</h4>
           <p class="card-text">Su tarjeta de presentación digital.</p>
         </div>
         <div class="card-body">
@@ -248,6 +276,12 @@
 
 </div>
 
+<script>
 
+$('.carousel').carousel({
+  interval: 500
+})
+
+</script>
 
 <?php the_content(); ?>

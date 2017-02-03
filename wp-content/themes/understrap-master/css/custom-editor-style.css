@@ -9203,6 +9203,9 @@ aside.widget {
 .gallery-caption {
   display: block; }
 
+.white {
+  color: white !important; }
+
 /*!
   Ionicons, v2.0.0
   Created by Ben Sperry for the Ionic Framework, http://ionicons.com/
@@ -12285,7 +12288,9 @@ h1, h2, h3, h4, h5, h6, p, span, ul, li, a {
   text-transform: uppercase;
   font-family: 'Raleway';
   font-weight: bold;
-  font-size: 14px; }
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1.5px; }
 
 .btn-cta-card {
   border-radius: 0px;
@@ -12298,15 +12303,15 @@ h1, h2, h3, h4, h5, h6, p, span, ul, li, a {
   flex-direction: row-reverse;
   text-transform: uppercase; }
 
-a.nav-link {
+.navbar-toggleable-md .navbar-nav .nav-link {
   color: white;
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
-  letter-spacing: 1.5px;
+  letter-spacing: 1px;
   line-height: 100%;
   font-family: "Raleway";
   font-weight: 300;
-  font-size: 14px; }
+  font-size: 14px;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem; }
 
 .navbar-toggleable-md .navbar-collapse {
   flex-direction: row-reverse;
@@ -12323,15 +12328,13 @@ a.nav-link {
 
 .navbar-brand {
   z-index: 100;
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
+  font-family: Raleway;
+  font-size: 29px;
   line-height: 100%;
-  color: white;
+  color: #fff;
   text-transform: none;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 300;
   letter-spacing: 5px; }
 
 #wrapper-footer {
@@ -12342,9 +12345,10 @@ a.nav-link {
   text-transform: uppercase;
   font-style: normal;
   font-weight: 600;
-  font-size: 48px;
+  font-size: 46px;
   line-height: 100%;
-  color: #3A3C3D; }
+  color: #3a3c3d;
+  margin-bottom: 4%; }
 
 .container-slide {
   background-blend-mode: darken;
@@ -12371,10 +12375,10 @@ a.nav-link {
     color: #fff;
     position: absolute;
     top: 295px;
-    width: 100%; }
+    width: 99%; }
     .container-slide > div > div > div.layer > h1 {
       font-style: normal;
-      font-weight: 600;
+      font-weight: 500;
       font-size: 54px;
       line-height: 100%;
       letter-spacing: 0.15px;
@@ -12382,32 +12386,50 @@ a.nav-link {
       text-transform: uppercase; }
     .container-slide > div > div > div.layer > h3 {
       font-style: normal;
-      font-weight: 600;
+      font-weight: 300;
       font-size: 18px;
       line-height: 100%;
       color: white;
+      margin-bottom: 15px;
       text-transform: uppercase; }
 
 div.container.container-services {
   margin-bottom: 5%;
   margin-top: 5%; }
   div.container.container-services > div.row > div {
-    padding: 5%; }
+    padding: 0px;
+    text-align: center;
+    margin: 0px; }
     div.container.container-services > div.row > div > div.wrapper-service {
+      width: 90%;
+      margin: auto;
       text-align: center; }
       div.container.container-services > div.row > div > div.wrapper-service > i {
         font-size: 48px; }
+    div.container.container-services > div.row > div > p {
+      width: 90%;
+      margin: auto;
+      text-align: center; }
 
 #section-band-image {
   background: url("../../../uploads/2017/02/section_2.png");
-  position: relative; }
+  position: relative;
+  background-color: #171928; }
   #section-band-image > div {
-    padding: 5%;
-    vertical-align: middle; }
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 0px;
+    padding-right: 0px; }
     #section-band-image > div > h3 {
       color: white;
       width: 70%;
-      display: inline; }
+      display: inline;
+      font-size: 1.3em;
+      font-weight: 300; }
     #section-band-image > div > button {
       float: right; }
   #section-band-image > div.layer-band-image {
@@ -12418,16 +12440,38 @@ div.container.container-services {
     position: absolute; }
 
 div.container.container-clients {
-  padding-bottom: 15%;
-  padding-top: 15%; }
-  div.container.container-clients > div.row > div {
+  padding-bottom: 5%;
+  padding-top: 5%; }
+  div.container.container-clients > div.row > div.col-md-12 {
+    margin: 1%;
     text-align: center; }
-    div.container.container-clients > div.row > div > img {
-      width: 18%;
-      padding: 5px; }
-    div.container.container-clients > div.row > div > h4 {
+  div.container.container-clients > div.row > div.col-md-12.col-clients-images {
+    margin: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    div.container.container-clients > div.row > div.col-md-12.col-clients-images > img {
+      margin-left: 5%;
+      margin-right: 5%;
+      flex-basis: auto;
+      height: 73px; }
+    div.container.container-clients > div.row > div.col-md-12.col-clients-images > h4 {
       margin-bottom: 2rem;
       color: grey; }
+
+.container-screens > div.row > div.col-md-6 {
+  margin: auto; }
+
+#carouselOpinions > div > div {
+  height: 200px;
+  width: 100%; }
+  #carouselOpinions > div > div > div > h3 {
+    display: block;
+    color: white; }
+  #carouselOpinions > div > div > div > p {
+    color: white;
+    display: block; }
 
 div.container.container-opinions {
   background: url("../../../uploads/2017/02/law_2.jpg");
@@ -12447,7 +12491,11 @@ div.container.container-opinions {
     width: 100%;
     position: absolute; }
   div.container.container-opinions > div.row {
-    padding: 10%; }
+    padding: 10%;
+    margin: 0px; }
+
+.container-packs > div.row {
+  margin-top: 10%; }
 
 div.card.card-basic {
   background-color: #F0F0F0;
@@ -12504,7 +12552,7 @@ div.card.card-basic {
 
 div.card.card-basic.card-middle {
   flex: none;
-  height: 120%;
+  height: 100%;
   top: -10%; }
   div.card.card-basic.card-middle > div.card-block {
     background: #0056A1;

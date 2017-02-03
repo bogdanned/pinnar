@@ -4,15 +4,16 @@
   text-transform: uppercase;
 }
 
-a.nav-link{
+.navbar-toggleable-md .navbar-nav .nav-link{
   color: white;
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
-  letter-spacing: 1.5px;
+  letter-spacing: 1px;
   line-height: 100%;
   font-family: "Raleway";
   font-weight: 300;
   font-size: 14px;
+  // Responsive
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
 }
 
 .navbar-toggleable-md .navbar-collapse{
@@ -33,14 +34,12 @@ a.nav-link{
 
 .navbar-brand{
   z-index: 100;
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
+  font-family: Raleway;
+  font-size: 29px;
   line-height: 100%;
-  color: white;
+  color: #fff;
   text-transform: none;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 300;
   letter-spacing: 5px;
 }
