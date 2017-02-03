@@ -64,11 +64,14 @@
 </div>
 
 <section id="section-band-image">
+  <div class="layer-band-image">
+  </div>
   <div class="container-fluid">
-    <h3>Con Pinnar podrás gestionar más clientes y fidelizar a los que ya tienes</h3>
+    <h3>Con Pinnar podrás gestionar más clientes y fidelizar a los que<br /> ya tienes.</h3>
     <button class="btn btn-cta pull-right">Servicios</button>
   </div>
 </section>
+
 
 <div class="container container-clients">
   <div class="row">
@@ -77,11 +80,11 @@
       <h4>Más de 30 Despachos Profesionales ya confian en nosotros.</h4>
     </div>
     <div class="col-md-12">
-      <img src=<?php echo $upload_dir['baseurl'] ."/2017/01/logo.jpg" ?>>
-      <img src=<?php echo $upload_dir['baseurl'] ."/2017/01/logo.jpg" ?>>
-      <img src=<?php echo $upload_dir['baseurl'] ."/2017/01/logo.jpg" ?>>
-      <img src=<?php echo $upload_dir['baseurl'] ."/2017/01/logo.jpg" ?>>
-      <img src=<?php echo $upload_dir['baseurl'] ."/2017/01/logo.jpg" ?>>
+      <img src=<?php echo $upload_dir['baseurl'] ."/2017/02/iasesoria_logo.png" ?>>
+      <img src=<?php echo $upload_dir['baseurl'] ."/2017/02/lopez_rivas.png" ?>>
+      <img src=<?php echo $upload_dir['baseurl'] ."/2017/02/gestores_muñoz.png" ?>>
+      <img src=<?php echo $upload_dir['baseurl'] ."/2017/02/díaz_gestores_2.png" ?>>
+
     </div>
   </div>
 </div>
@@ -123,6 +126,8 @@
 </div>
 
 <div class="container container-opinions">
+  <div class="layer-opinions">
+  </div>
   <div class="row">
     <div class="col-md-12">
       <h2 class="heading-index">OPINIONES</h2>

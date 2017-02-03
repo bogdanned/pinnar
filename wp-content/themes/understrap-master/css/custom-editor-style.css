@@ -12293,6 +12293,50 @@ h1, h2, h3, h4, h5, h6, p, span, ul, li, a {
   font-weight: 600;
   border-bottom: #C0392B solid 2px; }
 
+/* Header CSS */
+.navbar-toggleable-md {
+  flex-direction: row-reverse;
+  text-transform: uppercase; }
+
+a.nav-link {
+  color: white;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  letter-spacing: 1.5px;
+  line-height: 100%;
+  font-family: "Raleway";
+  font-weight: 300;
+  font-size: 14px; }
+
+.navbar-toggleable-md .navbar-collapse {
+  flex-direction: row-reverse;
+  z-index: 100; }
+
+#navbarNavDropdown {
+  padding-top: 15px; }
+
+#wrapper-navbar {
+  background-color: transparent;
+  position: absolute;
+  top: 0px;
+  width: 100%; }
+
+.navbar-brand {
+  z-index: 100;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 100%;
+  color: white;
+  text-transform: none;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 5px; }
+
+#wrapper-footer {
+  background-color: #171928; }
+
 .heading-index {
   text-align: center;
   text-transform: uppercase;
@@ -12356,11 +12400,22 @@ div.container.container-services {
 
 #section-band-image {
   background: url("../../../uploads/2017/02/section_2.png");
-  padding: 5%; }
-  #section-band-image > div > h3 {
-    color: white; }
-  #section-band-image > div > button {
-    float: left; }
+  position: relative; }
+  #section-band-image > div {
+    padding: 5%;
+    vertical-align: middle; }
+    #section-band-image > div > h3 {
+      color: white;
+      width: 70%;
+      display: inline; }
+    #section-band-image > div > button {
+      float: right; }
+  #section-band-image > div.layer-band-image {
+    background-color: #171928;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    position: absolute; }
 
 div.container.container-clients {
   padding-bottom: 15%;
@@ -12376,11 +12431,23 @@ div.container.container-clients {
 
 div.container.container-opinions {
   background: url("../../../uploads/2017/02/law_2.jpg");
-  padding-bottom: 15%;
-  padding-top: 15%;
-  margin: 0px;
   width: 100%;
-  text-align: center; }
+  text-align: center;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+  background-position-y: center;
+  background-position-x: center;
+  margin-bottom: 5%;
+  margin-top: 5%; }
+  div.container.container-opinions > div.layer-opinions {
+    background: #171928;
+    opacity: 0.8;
+    height: 100%;
+    width: 100%;
+    position: absolute; }
+  div.container.container-opinions > div.row {
+    padding: 10%; }
 
 div.card.card-basic {
   background-color: #F0F0F0;
@@ -12473,47 +12540,6 @@ div.card.card-basic.card-middle {
       font-size: 8px;
       font-style: italic;
       font-weight: 300; }
-
-/* Header CSS */
-.navbar-toggleable-md {
-  flex-direction: row-reverse;
-  text-transform: uppercase; }
-
-a.nav-link {
-  color: white;
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
-  letter-spacing: 1.5px;
-  line-height: 100%;
-  font-family: "Raleway";
-  font-weight: 300;
-  font-size: 14px; }
-
-.navbar-toggleable-md .navbar-collapse {
-  flex-direction: row-reverse;
-  z-index: 100; }
-
-#navbarNavDropdown {
-  padding-top: 15px; }
-
-#wrapper-navbar {
-  background-color: transparent;
-  position: absolute;
-  top: 0px;
-  width: 100%; }
-
-.navbar-brand {
-  z-index: 100;
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 100%;
-  color: white;
-  text-transform: none;
-  font-style: normal;
-  font-weight: 600;
-  letter-spacing: 5px; }
 
 /*
 * Use existing Bootstrap 4 classes and
