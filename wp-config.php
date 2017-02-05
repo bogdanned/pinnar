@@ -26,7 +26,6 @@ define('WP_CACHE', true); // Added by W3 Total Cache
 $environments = array(
   'local'       => 'localhost:8888',
   'development' => 'development.website.com',
-  'staging'     => 'dev-auara.tk',
   'production'  => 'pinnar.es'
 );
 
