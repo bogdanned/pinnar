@@ -1,3 +1,26 @@
-#wrapper-footer{
+#wrapper-footer,
+#wrapper-footer-full,
+#wrapper-static-hero{
   background-color: $pinnar-blue-dark;
 }
+
+
+
+/* Mail Chimp Footer Form Start */
+#mc4wp-form-1{
+  & > div.mc4wp-form-fields{
+    & > input{
+      width: 100%;
+    }
+    & > input[type="email"]{
+      color: $pinnar-grey-strong;
+      &:focus{
+        outline: none;
+      }
+    }
+    & > input[type="submit"]{
+      margin-top: 5px;
+    }
+  }
+}
+/* Mail Chimp Footer Form End */

@@ -11,7 +11,6 @@ $the_theme = wp_get_theme();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
-<?php get_sidebar( 'footerfull' ); ?>
 
 <div class="wrapper" id="wrapper-footer">
 
@@ -24,10 +23,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<footer class="site-footer" id="colophon">
 
 					<div class="row">
-						<div class="col-md-3">
-							<a>Contacto</a>
-							<p>Pinnar 12, Madrid, España</p>
-						</div>
+							<?php get_sidebar('footerfull'); ?>
 					</div>
 
 				</footer><!-- #colophon -->

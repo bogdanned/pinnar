@@ -6,7 +6,7 @@
     font-size: 46px;
     line-height: 100%;
     color: #3a3c3d;
-    margin-bottom: 4%;
+    margin-bottom: 3%;
   }
 
 
@@ -190,7 +190,7 @@ div.container.container-opinions{
   background-position-y: center;
   background-position-x: center;
   margin-bottom: 5%;
-  margin-top: 5%;
+  margin-top: 0px;
   & > div.layer-opinions{
     background: $pinnar-blue-dark;
     opacity: $layer-opacity;
@@ -288,14 +288,14 @@ div.card.card-basic.card-middle{
     flex: none;
   }
   & > div.card-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;;
-    align-items: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-left: 0px;
-    padding-right: 0px;
+    position: relative;
+    & > h1{
+      position: absolute;
+      top: 13%;
+      width: 100%;
+      text-align: center;
+      margin: auto;
+    }
     & > img{
       position: relative;
       top: -71px;

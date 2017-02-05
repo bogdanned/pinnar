@@ -23,7 +23,7 @@
     </div>
   </div>
 </div>
-<div class="container container-services">
+<div class="container container-services" id="services">
   <div class="row">
     <div class="col-md-12">
       <h2 class="heading-index">Servicios</h2>
@@ -70,7 +70,6 @@
 </section>
 
 
-
 <div class="container container-screens">
   <div class="row">
     <div class="col-md-6">
@@ -89,7 +88,7 @@
   </div>
   <div class="row">
     <div class="col-md-6">
-      <h2>Snappy Manager</h2>
+      <h2>Doc Manager</h2>
       <p>
         Gestiona todos tus documentos de manera intuitiva,
         <br />
@@ -104,11 +103,11 @@
   </div>
 </div>
 
-<div class="container container-clients">
+<div class="container container-clients" id="clients">
   <div class="row">
     <div class="col-md-12">
       <h2 class="heading-index">Clientes</h2>
-      <h4>Más de 30 Despachos Profesionales ya confian en nosotros.</h4>
+      <h4>Despachos Profesionales que ya confian en nosotros.</h4>
     </div>
     <div class="col-md-12 col-clients-images">
       <img src=<?php echo $upload_dir['baseurl'] ."/2017/02/iasesoria_logo.png" ?>>
@@ -119,7 +118,7 @@
   </div>
 </div>
 
-<div class="container container-opinions">
+<div class="container container-opinions" id="opinions">
   <div class="layer-opinions">
   </div>
   <div class="row">
@@ -127,13 +126,8 @@
       <h2 class="heading-index white">OPINIONES</h2>
       <h4 class="white">Palabras que reflejan nuestro compromiso</h4>
       <div id="carouselOpinions" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
         <div class="carousel-inner" role="listbox">
-          <div class="carousel-item active">
+          <div class="carousel-item active" id="slide-one">
             <div class="carousel-caption d-none d-md-block">
               <h3>iAsesoria</h3>
               <p>“Con la ayuda de Pinnar hemos logrado construir una marca digital en
@@ -145,7 +139,7 @@
               </p>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" id="slide-two">
             <div class="carousel-caption d-none d-md-block">
               <h3>iAsesoria</h3>
               <p>“Con la ayuda de Pinnar hemos logrado construir una marca digital en
@@ -170,14 +164,6 @@
             </div>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
       </div>
     </div>
   </div>
@@ -190,25 +176,28 @@
     <div class="col-md-4">
       <div class="card card-basic">
         <div class="card-block">
-          <h4 class="card-title">BASIC+</h4>
+          <h4 class="card-title">PROFESIONAL</h4>
           <p class="card-text">Su tarjeta de presentación digital.</p>
         </div>
         <div class="card-body">
           <h1>499 <span>€</span></h1>
           <ul class="list-group list-group-flush">
             <li class="list-group-item">
-              <p>Cras justo odio</p>
+              <p>Web adaptada a todos los dispositivos</p>
             </li>
             <li class="list-group-item">
-              <p>Cras justo odio pdio odi</p>
+              <p>Posicionamiento en buscadores básico</p>
             </li>
             <li class="list-group-item">
-              <p>Cras justo odio odio</p>
+              <p>Hosting y dominio incluido</p>
+            </li>
+            <li class="list-group-item">
+              <p>Mantenimiento y soporte</p>
             </li>
           </ul>
           <button class="btn btn-cta btn-cta-card">COMPRAR</button>
           <p>
-            *Gratis el primer mes, despues 29€ al mes.
+            *Gratis el primer mes, despues 19€ al mes.
           </p>
         </div>
       </div>
@@ -216,7 +205,7 @@
     <div class="col-md-4">
       <div class="card card-basic card-middle">
         <div class="card-block">
-          <h4 class="card-title">PROFESSIONAL</h4>
+          <h4 class="card-title">PREMIUM</h4>
           <p class="card-text">Comunícate mejor con tus clientes y <br />
           agiliza tus procesos.
           </p>
@@ -226,21 +215,21 @@
           <h1>1299 <span>€</span></h1>
           <ul class="list-group list-group-flush">
             <li class="list-group-item">
-              <p>Cras justo odio</p>
+              <p>Pack PREMIUM</p>
             </li>
             <li class="list-group-item">
-              <p>Cras justo odio pdio odi</p>
+              <p>Gestión documental</p>
             </li>
             <li class="list-group-item">
-              <p>Cras justo odio odio</p>
+              <p>Comunicación y Sistema de Ticketing</p>
             </li>
             <li class="list-group-item">
-              <p>Cras justo odio odio***</p>
+              <p>Mantenimiento y soporte</p>
             </li>
           </ul>
           <button class="btn btn-cta btn-cta-card">COMPRAR</button>
           <p>
-            *Gratis el primer mes, despues 29€ al mes.
+            *Gratis el primer mes, despues 49€ al mes.
           </p>
         </div>
       </div>
@@ -252,22 +241,22 @@
           <p class="card-text">Su tarjeta de presentación digital.</p>
         </div>
         <div class="card-body">
-          <h1>499 <span>€</span></h1>
+          <h1>*****</h1>
           <ul class="list-group list-group-flush">
             <li class="list-group-item">
-              <p>Cras justo odio</p>
+              <p>Pack PREMIUM</p>
             </li>
             <li class="list-group-item">
-              <p>Cras justo odio pdio odi</p>
+              <p>Integración con SAGE</p>
             </li>
             <li class="list-group-item">
-              <p>Cras justo odio odio</p>
+              <p>Intranet</p>
+            </li>
+            <li class="list-group-item">
+              <p>Servidor dedicado SSD</p>
             </li>
           </ul>
           <button class="btn btn-cta btn-cta-card">COMPRAR</button>
-          <p>
-            *Gratis el primer mes, despues 29€ al mes.
-          </p>
         </div>
       </div>
     </div>

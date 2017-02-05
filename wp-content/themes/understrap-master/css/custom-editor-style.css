@@ -12337,9 +12337,24 @@ h1, h2, h3, h4, h5, h6, p, span, ul, li, a {
   font-weight: 300;
   letter-spacing: 5px; }
 
-#wrapper-footer {
+#wrapper-footer,
+#wrapper-footer-full,
+#wrapper-static-hero {
   background-color: #171928; }
 
+/* Mail Chimp Footer Form Start */
+#mc4wp-form-1 > div.mc4wp-form-fields > input {
+  width: 100%; }
+
+#mc4wp-form-1 > div.mc4wp-form-fields > input[type="email"] {
+  color: #828282; }
+  #mc4wp-form-1 > div.mc4wp-form-fields > input[type="email"]:focus {
+    outline: none; }
+
+#mc4wp-form-1 > div.mc4wp-form-fields > input[type="submit"] {
+  margin-top: 5px; }
+
+/* Mail Chimp Footer Form End */
 .heading-index {
   text-align: center;
   text-transform: uppercase;
@@ -12348,7 +12363,7 @@ h1, h2, h3, h4, h5, h6, p, span, ul, li, a {
   font-size: 46px;
   line-height: 100%;
   color: #3a3c3d;
-  margin-bottom: 4%; }
+  margin-bottom: 3%; }
 
 .container-slide {
   background-blend-mode: darken;
@@ -12483,7 +12498,7 @@ div.container.container-opinions {
   background-position-y: center;
   background-position-x: center;
   margin-bottom: 5%;
-  margin-top: 5%; }
+  margin-top: 0px; }
   div.container.container-opinions > div.layer-opinions {
     background: #171928;
     opacity: 0.8;
@@ -12559,17 +12574,16 @@ div.card.card-basic.card-middle {
     height: 180px;
     flex: none; }
   div.card.card-basic.card-middle > div.card-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-left: 0px;
-    padding-right: 0px;
+    position: relative;
     padding: 5%;
     text-align: center;
     background-color: #F0F0F0; }
+    div.card.card-basic.card-middle > div.card-body > h1 {
+      position: absolute;
+      top: 13%;
+      width: 100%;
+      text-align: center;
+      margin: auto; }
     div.card.card-basic.card-middle > div.card-body > img {
       position: relative;
       top: -71px; }
