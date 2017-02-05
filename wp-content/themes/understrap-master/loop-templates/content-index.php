@@ -16,7 +16,7 @@
   <div class="row">
     <div class="col-md-12">
       <div class="layer">
-        <h1>¡adios al papel!</h1>
+        <h1>adios al papel</h1>
         <h3>Incrementa la eficiencia de tu despacho y ahorra tiempo</h3>
         <button class="btn btn-cta">empezar</button>
       </div>
