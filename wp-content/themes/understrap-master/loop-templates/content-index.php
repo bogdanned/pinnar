@@ -73,7 +73,7 @@
 <div class="container container-screens">
   <div class="row">
     <div class="col-md-6">
-      <img src="wp-content/uploads/2017/02/demo_iasesoría-e1486153555315.png"/>
+      <img src="wp-content/uploads/2017/02/silver_mac.png"/>
     </div>
     <div class="col-md-6">
       <h2 class="align-middle">Web adaptada a todos los dispositivos</h2>
