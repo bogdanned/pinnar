@@ -1,14 +1,21 @@
 #wrapper-footer,
 #wrapper-footer-full,
 #wrapper-static-hero{
+
   background-color: $pinnar-blue-dark;
+  & > div{
+    & > div{
+      & > div{
+        color: white;
+        font-weight: 100;
+      }
+    }
+  }
 }
 
-
-
-
-
-
+#wrapper-footer-full{
+  width: 100%;
+}
 
 /* Mail Chimp Footer Form Start */
 #mc4wp-form-1{
@@ -28,3 +35,24 @@
   }
 }
 /* Mail Chimp Footer Form End */
+
+
+footer{
+  & > div{
+    & > div{
+      margin: auto;
+      text-align: center;
+      & > span{
+        & > a{
+          color: white;
+          font-size: 10px;
+          text-transform: uppercase;
+          &:hover{
+            color: white;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}

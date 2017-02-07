@@ -11,6 +11,12 @@ $the_theme = wp_get_theme();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
+<div class="container-fluid">
+	<div class="row row-footerfull">
+			<?php get_sidebar('footerfull'); ?>
+	</div>
+</div>
+
 
 <div class="wrapper" id="wrapper-footer">
 
@@ -23,7 +29,20 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<footer class="site-footer" id="colophon">
 
 					<div class="row">
-							<?php get_sidebar('footerfull'); ?>
+						<div class="col-md-6 col-md-offset-3">
+							<span>
+								<a href="">2017</a>
+							</span>
+							<span>
+								<a href="">Terminos y Condiciones</a>
+							</span>
+							<span>
+								<a href="">Politica de Privacidad</a>
+							</span>
+							<span>
+								<a href="/blog">Blog</a>
+							</span>
+						</div>
 					</div>
 
 				</footer><!-- #colophon -->

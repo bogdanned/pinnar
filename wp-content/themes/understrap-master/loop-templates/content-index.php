@@ -16,7 +16,7 @@
   <div class="row">
     <div class="col-md-12">
       <div class="layer">
-        <h1>adios al papel</h1>
+        <h1>adiós al papel</h1>
         <h3>Incrementa la eficiencia de tu despacho y ahorra tiempo</h3>
         <button class="btn btn-cta">empezar</button>
       </div>
@@ -103,6 +103,7 @@
   </div>
 </div>
 
+
 <div class="container container-clients" id="clients">
   <div class="row">
     <div class="col-md-12">
@@ -110,13 +111,22 @@
       <h4>Despachos Profesionales que ya confian en nosotros.</h4>
     </div>
     <div class="col-md-12 col-clients-images">
-      <img src=<?php echo $upload_dir['baseurl'] ."/2017/02/iasesoria_logo.png" ?>>
-      <img src=<?php echo $upload_dir['baseurl'] ."/2017/02/lopez_rivas.png" ?>>
-      <img src=<?php echo $upload_dir['baseurl'] ."/2017/02/gestores_muñoz.png" ?>>
-      <img src=<?php echo $upload_dir['baseurl'] ."/2017/02/díaz_gestores_2.png" ?>>
+      <div class="col-md-3">
+        <img src=<?php echo $upload_dir['baseurl'] ."/2017/02/iasesoria_logo.png" ?>>
+      </div>
+      <div class="col-md-3">
+        <img src=<?php echo $upload_dir['baseurl'] ."/2017/02/lopez_rivas.png" ?>>
+      </div>
+      <div class="col-md-3">
+        <img src=<?php echo $upload_dir['baseurl'] ."/2017/02/gestores_muñoz.png" ?>>
+      </div>
+      <div class="col-md-3">
+        <img src=<?php echo $upload_dir['baseurl'] ."/2017/02/díaz_gestores_2.png" ?>>
+      </div>
     </div>
   </div>
 </div>
+
 
 <div class="container container-opinions" id="opinions">
   <div class="layer-opinions">

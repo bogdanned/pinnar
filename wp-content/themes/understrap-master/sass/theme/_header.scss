@@ -4,6 +4,7 @@
   text-transform: uppercase;
 }
 
+
 .navbar-toggleable-md .navbar-nav .nav-link{
   color: white;
   letter-spacing: 1px;
@@ -16,21 +17,37 @@
   padding-left: 1.5rem;
 }
 
+
 .navbar-toggleable-md .navbar-collapse{
   flex-direction: row-reverse;
   z-index: 100;
 }
 
+
 #navbarNavDropdown{
   padding-top: 15px;
 }
+
 
 #wrapper-navbar{
   background-color: transparent;
   position: absolute;
   top: 0px;
   width: 100%;
+  z-index: 100;
+  & > div.layer{
+    background-color: $pinnar-blue-dark;
+    opacity: 0.5;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: none;
+    @include breakpoint(md){
+      display: block;
+    }
+  }
 }
+
 
 .navbar-brand{
   z-index: 100;
