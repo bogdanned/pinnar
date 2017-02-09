@@ -298,7 +298,14 @@ $('.carousel').carousel({
       </div>
       <div class="modal-body">
         <div class="container">
-          <form method="post" action="/contact-form-demo/#wpcf7-f65-p66-o1">
+          <form method="post" action="/contact-form-demo/">
+            <div style="display: none;">
+              <input type="hidden" name="_wpcf7" value="65" />
+              <input type="hidden" name="_wpcf7_version" value="4.6.1" />
+              <input type="hidden" name="_wpcf7_locale" value="es_ES" />
+              <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f65-p66-o1" />
+              <input type="hidden" name="_wpnonce" value="0935bf5cb6" />
+            </div>
             <div class="form-group row">
               <label for="lgFormGroupInput" class="col-sm-3 col-form-label">Nombre</label>
               <div class="col-sm-9">
