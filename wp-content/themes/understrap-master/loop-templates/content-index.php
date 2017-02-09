@@ -205,7 +205,7 @@
               <p>Mantenimiento y soporte</p>
             </li>
           </ul>
-          <button data-toggle="modal" data-target="#contactModal" class="btn btn-cta btn-cta-card">COMPRAR</button>
+          <button data-toggle="modal" data-target="#contactModal" class="btn btn-cta btn-cta-card">CONTACTAR</button>
           <p>
             *Gratis el primer mes, despues 19€ al mes.
           </p>
@@ -237,7 +237,7 @@
               <p>Mantenimiento y soporte</p>
             </li>
           </ul>
-          <button data-toggle="modal" data-target="#contactModal" class="btn btn-cta btn-cta-card">COMPRAR</button>
+          <button data-toggle="modal" data-target="#contactModal" class="btn btn-cta btn-cta-card">CONTACTAR</button>
           <p>
             *Gratis el primer mes, despues 49€ al mes.
           </p>
