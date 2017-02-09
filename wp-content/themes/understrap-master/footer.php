@@ -34,10 +34,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 								<a href="">2017</a>
 							</span>
 							<span>
-								<a href="">Terminos y Condiciones</a>
+								<a href="">Tèrminos y Condiciones</a>
 							</span>
 							<span>
-								<a href="">Politica de Privacidad</a>
+								<a href="">Política de Privacidad</a>
 							</span>
 							<span>
 								<a href="/blog">Blog</a>
