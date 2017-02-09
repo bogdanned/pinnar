@@ -298,7 +298,7 @@ $('.carousel').carousel({
       </div>
       <div class="modal-body">
         <div class="container">
-          <form method="post" action="https://www.pinnar.es/contact-form-demo/">
+          <form method="post" action="/contact-form-demo/#wpcf7-f65-p66-o1">
             <div class="form-group row">
               <label for="lgFormGroupInput" class="col-sm-3 col-form-label">Nombre</label>
               <div class="col-sm-9">
