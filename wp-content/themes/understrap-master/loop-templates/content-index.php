@@ -286,57 +286,7 @@ $('.carousel').carousel({
 <?php the_content(); ?>
 
 
-<!-- Modals -->
-<div class="modal fade" id="contactModal">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Pinnar</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <div class="container">
-          <form method="post" action="/contact-form-demo/">
-            <div style="display: none;">
-              <input type="hidden" name="_wpcf7" value="65" />
-              <input type="hidden" name="_wpcf7_version" value="4.6.1" />
-              <input type="hidden" name="_wpcf7_locale" value="es_ES" />
-              <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f65-p66-o1" />
-              <input type="hidden" name="_wpnonce" value="0935bf5cb6" />
-            </div>
-            <div class="form-group row">
-              <label for="lgFormGroupInput" class="col-sm-3 col-form-label">Nombre</label>
-              <div class="col-sm-9">
-                <input type="text" name="your-name" class="form-control" id="lgFormGroupInput" placeholder="Despacho Profesional ">
-              </div>
-            </div>
-            <div class="form-group row">
-              <label for="lgFormGroupInput" class="col-sm-3 col-form-label col-form-label-lg">Email</label>
-              <div class="col-sm-9">
-                <input type="email" name="your-email" class="form-control" id="lgFormGroupInput" placeholder="you@example.com">
-              </div>
-            </div>
-            <div class="form-group row">
-              <label for="lgFormGroupInput" class="col-sm-3 col-form-label col-form-label-lg">Telefono</label>
-              <div class="col-sm-9">
-                <input name="your-subject" type="text" class="form-control" id="lgFormGroupInput">
-              </div>
-            </div>
-            <div class="form-group row">
-              <label for="smFormGroupInput" class="col-sm-3 col-form-label col-form-label-sm">Mensage</label>
-              <div class="col-sm-9">
-                <textarea name="your-message" class="form-control" id="message-text"></textarea>
-              </div>
-            </div>
-            <input class="btn btn-cta pull-right" type="submit" value="Enviar"/>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+
 
 
 
