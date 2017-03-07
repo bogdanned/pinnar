@@ -12545,7 +12545,15 @@ div.card.card-basic {
   width: 100%;
   border-radius: 0px;
   border: none;
-  margin-top: 5%; }
+  margin-top: 100px; }
+  @media (min-width: 540px) and (max-width: 960px) {
+    div.card.card-basic {
+      width: 320px;
+      margin: auto; } }
+  @media (max-width: 540px) {
+    div.card.card-basic {
+      width: 320px;
+      margin: auto; } }
   div.card.card-basic > div.card-block {
     background: #171928;
     color: white;
@@ -12602,12 +12610,21 @@ div.card.card-basic {
           color: #828282;
           font-size: 1rem;
           font-weight: 400; }
+          @media (min-width: 1440px) {
+            div.card.card-basic > div.card-body > ul.list-group.list-group-flush > li > p {
+              font-size: 14px; } }
+          @media (min-width: 1140px) and (max-width: 1440px) {
+            div.card.card-basic > div.card-body > ul.list-group.list-group-flush > li > p {
+              font-size: 12px; } }
+          @media (min-width: 960px) and (max-width: 1140px) {
+            div.card.card-basic > div.card-body > ul.list-group.list-group-flush > li > p {
+              font-size: 10px; } }
           @media (min-width: 540px) and (max-width: 960px) {
             div.card.card-basic > div.card-body > ul.list-group.list-group-flush > li > p {
-              font-size: 10px; } }
+              font-size: 14px; } }
           @media (max-width: 540px) {
             div.card.card-basic > div.card-body > ul.list-group.list-group-flush > li > p {
-              font-size: 10px; } }
+              font-size: 14px; } }
     div.card.card-basic > div.card-body > button {
       margin-top: 25%; }
     div.card.card-basic > div.card-body > p {
@@ -12630,7 +12647,8 @@ div.card.card-basic.card-middle {
       top: -10%; } }
   @media (min-width: 540px) and (max-width: 960px) {
     div.card.card-basic.card-middle {
-      top: -10%; } }
+      top: 0px;
+      margin-top: 10%; } }
   @media (max-width: 540px) {
     div.card.card-basic.card-middle {
       top: 0px; } }

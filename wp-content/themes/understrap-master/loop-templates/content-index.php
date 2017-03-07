@@ -145,7 +145,7 @@
                 nuestras operaciones e incrementar la eficiencia del despacho.”
               </p>
               <p>
-                Primero.
+
               </p>
             </div>
           </div>
@@ -193,10 +193,10 @@
           <h1>499 <span>€</span></h1>
           <ul class="list-group list-group-flush">
             <li class="list-group-item">
-              <p>Web adaptada a todos los dispositivos</p>
+              <p>Web adaptada a movíl y tablet</p>
             </li>
             <li class="list-group-item">
-              <p>Posicionamiento en buscadores básico</p>
+              <p>Posicionamiento en buscadores</p>
             </li>
             <li class="list-group-item">
               <p>Hosting y dominio incluido</p>
@@ -275,19 +275,8 @@
 
 </div>
 
-<script>
-
-$('.carousel').carousel({
-  interval: 500
-})
-
-</script>
 
 <?php the_content(); ?>
-
-
-
-
 
 
 <!--form action="/?page_id=66&#038;preview=true#wpcf7-f65-p66-o1" method="post" class="wpcf7-form" novalidate="novalidate">
